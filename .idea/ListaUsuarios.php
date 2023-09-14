@@ -1,7 +1,7 @@
 <?php
 require_once "conection.php";
 
-$sqlt = "SELECT ' ' as  control, nombre, password FROM usuario WHERE id = '1';";
+$sqlt = "SELECT ' ' as  control, nombre, correo, password FROM usuario WHERE id = '1';";
 $stmt = conection::conectar()->prepare($sqlt);
 $stmt->execute();
 if($stmt->rowCount() > 0 ){
