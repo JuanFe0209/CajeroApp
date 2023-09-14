@@ -29,10 +29,12 @@
     <script>
         function ejecutarEnviar() {
             var nombre = $('#nombre').val();
+            var correo = $('correo').val();
             var password = $('#password').val();
 
             var parametros = {
                 'nombre': nombre,
+                'correo': correo,
                 'password': password
             }
 
