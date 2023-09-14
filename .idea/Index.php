@@ -62,6 +62,9 @@
                 <label>Escriba el usuario</label>
                 <input id="nombre" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" >
                 <br>
+                <label>Escriba el correo</label>
+                <input id="correo" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                <br>
                 <label>Ingrese la constraseña</label>
                 <input id="password" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
                 <br>
